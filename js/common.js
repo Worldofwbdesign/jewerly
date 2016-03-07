@@ -1,7 +1,13 @@
 $(function() {
 
-/* Equal Heights */
+//Animations
+$(".header-content").animated("rotateInUpRight");
+$(".s_history h2, .s_choose h2, .s_photoblog h2").animated("fadeInLeft");
+$(".s_history p, .s_choose p, .s_portfolio h2").animated("fadeInRight");
+$(".s_work h3, .comm-header h3").animated("swing");
+$(".work-item").animated("bounceInUp");
 
+/* Equal Heights */
 $(".work-item h4").equalHeights();
 $(".work-item p").equalHeights();
 $(".chs-item").equalHeights();
